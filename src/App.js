@@ -5,7 +5,15 @@ import { useEffect, useState } from 'react';
 
 function App() {
   const [currentUser,setCurrentUser] = useState({})
-
+  // setTimeout(()=>{
+  //   fetch(`http://localhost:3000/owners/${currentUser.username}`)
+  //       .then(res=>res.json())
+  //       .then(user=>{
+  //           if(user){
+  //              setCurrentUser(user)
+  //             }
+  //           })
+  // },3000)
   const renderBookings=()=>{
     if(currentUser.buildings.length>0){
       return(
@@ -16,6 +24,8 @@ function App() {
               myBuilding={true} 
               building={b}
               key ={b.id}
+              setCurrentUser={setCurrentUser}
+              currentUser={currentUser}
               />)}
             </div> 
         </div>
@@ -39,7 +49,10 @@ function App() {
       {currentUser.username &&
       <div className ='main-container'>
         <h1>Hi, {currentUser.name}!</h1>
-        <div className = 'add-building-button-div'>
+        <div 
+        className = 'add-building-button-div'
+        onClick={()=>window.alert('Add building Coming soon!')}
+        >
             <h1>
               Add Building
             </h1>
