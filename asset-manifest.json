@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/book_building_owner_portal/static/css/main.d57ced48.chunk.css",
+    "main.js": "/book_building_owner_portal/static/js/main.f32d9df7.chunk.js",
+    "main.js.map": "/book_building_owner_portal/static/js/main.f32d9df7.chunk.js.map",
+    "runtime-main.js": "/book_building_owner_portal/static/js/runtime-main.4975318f.js",
+    "runtime-main.js.map": "/book_building_owner_portal/static/js/runtime-main.4975318f.js.map",
+    "static/css/2.4bd8e119.chunk.css": "/book_building_owner_portal/static/css/2.4bd8e119.chunk.css",
+    "static/js/2.e086072f.chunk.js": "/book_building_owner_portal/static/js/2.e086072f.chunk.js",
+    "static/js/2.e086072f.chunk.js.map": "/book_building_owner_portal/static/js/2.e086072f.chunk.js.map",
+    "static/js/3.62a16015.chunk.js": "/book_building_owner_portal/static/js/3.62a16015.chunk.js",
+    "static/js/3.62a16015.chunk.js.map": "/book_building_owner_portal/static/js/3.62a16015.chunk.js.map",
+    "index.html": "/book_building_owner_portal/index.html",
+    "static/css/2.4bd8e119.chunk.css.map": "/book_building_owner_portal/static/css/2.4bd8e119.chunk.css.map",
+    "static/css/main.d57ced48.chunk.css.map": "/book_building_owner_portal/static/css/main.d57ced48.chunk.css.map",
+    "static/js/2.e086072f.chunk.js.LICENSE.txt": "/book_building_owner_portal/static/js/2.e086072f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4975318f.js",
+    "static/css/2.4bd8e119.chunk.css",
+    "static/js/2.e086072f.chunk.js",
+    "static/css/main.d57ced48.chunk.css",
+    "static/js/main.f32d9df7.chunk.js"
+  ]
+}
